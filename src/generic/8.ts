@@ -22,3 +22,7 @@ type Form = {
 type Params = Omit<Form, 'errors'>;
 
 export {};
+function sayHello(name: string): void {
+  console.log(`Hello, ${name}!`);
+}
+let result = sayHello('John');

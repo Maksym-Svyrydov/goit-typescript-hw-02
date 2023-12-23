@@ -1,6 +1,7 @@
 {
   "name": "typescript-homework-module-2",
   "version": "1.0.0",
+  "main": "index.js",
   "description": "",
   "keywords": [],
   "author": "",
@@ -10,5 +11,8 @@
   },
   "scripts": {
     "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
   }
 }

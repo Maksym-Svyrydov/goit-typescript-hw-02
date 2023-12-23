@@ -1,11 +1,11 @@
 /*
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
-interface ComponentProps {}
-class Component<T extends ComponentProps> {
+
+class Component<T> {
   constructor(public props: T) {}
 }
-interface PageProps extends ComponentProps {
+interface PageProps {
   title: string;
 }
 class Page extends Component<PageProps> {
